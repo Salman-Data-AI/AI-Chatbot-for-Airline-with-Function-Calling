@@ -33,3 +33,34 @@ An AI-powered assistant for airlines that answers customer queries and retrieves
 3. Add your OpenAI API key to .env:
    ```bash
    OPENAI_API_KEY=your-key-here
+
+---
+
+## 📂 Project Structure
+
+```bash
+FlightAI-Assistant/
+├── airline_assistant.py    # Main application logic
+├── requirements.txt        # Dependencies
+├── .env                   # API key configuration
+├── README.md              # You are here
+└── demo.gif               # (Optional) Demo recording
+```
+---
+
+## 🤖 How It Works
+
+- User Query: Asks about ticket prices.
+- OpenAI Decision: Decides to call get_ticket_price function.
+- Tool Execution: Fetches price from the predefined dictionary.
+- Response Synthesis: Returns a natural-language answer (e.g., "A ticket to Paris costs $899.").
+
+---
+
+## 🌟 Future Enhancements
+
+- Add real-time flight data (via API like Skyscanner).
+- Support multi-city trips.
+- Deploy as a web app (e.g., Streamlit, FastAPI).
+
+---
